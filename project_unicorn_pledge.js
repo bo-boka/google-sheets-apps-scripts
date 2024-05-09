@@ -1,6 +1,7 @@
 
 /**
 * Puts tools in a map, iterates through Pledge list vendors, to find companies based on either product or company name
+* Removes all spacing and business patterns (LLC, inc, etc) and makes lowercase before checking for matches
 * @returns {array} Pastes company name & id in end columns of pledge list
 */
 function match_companies_and_products() {
